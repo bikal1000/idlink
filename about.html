@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wholepage">
+        <header id="header">
+            <div class="container">
+                <nav class="navbar navbar-default navbar-bg">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand main_logo">
+                            <img src="images/logo1.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Use Cases</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#" class="signup-a">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="main-content">
+            <div class="about_header">
+                <h1>About Us</h1>
+            </div>
+            <div class="avout_section">
+                <div class="container">
+                    <figure class="about_img">
+                        <img src="images/ball.png" alt="ball image">
+                    </figure>
+                    <div class="about_content">
+                        <h2>Accelerate the Developement of AI Applications</h2>
+                        <div class="main_content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="about_text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6">
+                                    <div class="about_text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Watch our blog for more of these investment we make in customer experience</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-row row">
+                    <div class="col-sm-4">
+                        <div class="footer-list-div">
+                            <h5>Platform</h5>
+                            <ul class="footer-list">
+                                <li><a href="#">How IDLinks Works</a></li>
+                                <li><a href="#">Who We Are</a></li>
+                                <li><a href="#">Use Cases</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-list-div">
+                            <h5>Company</h5>
+                            <ul class="footer-list">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-list-div">
+                            <h5>Social</h5>
+                            <ul class="footer-list">
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+        jQuery(window).scroll(function() {
+            var wScroll = jQuery(this).scrollTop(); /*scroll desitnation*/
+            jQuery('#header').addClass('headerfixed');
+            if (wScroll < 150) {
+                jQuery('#header').removeClass('headerfixed');
+            }
+            if (wScroll < 550) {
+                jQuery('#header').removeClass('headeranimation');
+            } else {
+                jQuery('#header').addClass('headeranimation');
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>

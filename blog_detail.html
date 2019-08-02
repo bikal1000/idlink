@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog Detail</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wholepage">
+        <header id="header">
+            <div class="container">
+                <nav class="navbar navbar-default navbar-bg">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand main_logo">
+                            <img src="images/logo1.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Use Cases</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#" class="signup-a">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="main-content">
+            <div class="blog_header">
+                <h1>Blog</h1>
+            </div>
+            <div class="blog_detail">
+                <div class="container">
+                    <div class="main_blog">
+                        <figure class="blog_img detail_img">
+                            <img src="images/blog_img.png" alt="blog images">
+                        </figure>
+                        <div class="detail_content">
+                            <span>MAY 15 2019</span>
+                            <h4>How We Made It Easy for Anyone at Our Company to Trigger Alerts</h4>
+                            <p>Scale relies on Mode Analytics for internal SOL and Python based reporting and analytics, helping power our operations, insights and business decisions. many of these reports we set to run on a schedule, so that we can always go to a report and see data that's no more than fifteen minutes to an hour out of date.
+                                How We Made It Easy for Anyone at Our Company to Trigger Alerts</a> </h4>
+                                <p>Scale relies on Mode Analytics for internal SOL and Python based reporting and analytics, helping power our operations, insights and business decisions. many of these reports we set to run on a schedule, so that we can always go to a report and see data that's no more than fifteen minutes to an hour out of date.<br>
+                                    How We Made It Easy for Anyone at Our Company to Trigger Alerts</a> </h4>
+                                    <p>Scale relies on Mode Analytics for internal SOL and Python based reporting and analytics, helping power our operations, insights and business decisions. many of these reports we set to run on a schedule, so that we can always go to a report and see data that's no more than fifteen minutes to an hour out of date.How We Made It Easy for Anyone at Our Company to Trigger Alerts</a> </h4>
+                                        <p>Scale relies on Mode Analytics for internal SOL and Python based reporting and analytics, helping power our operations, insights and business decisions. many of these reports we set to run on a schedule, so that we can always go to a report and see data that's no more than fifteen minutes to an hour out of date.<br></p>
+                                        How We Made It Easy for Anyone at Our Company to Trigger Alerts</a> </h4>
+                                        <p>Scale relies on Mode Analytics for internal SOL and Python based reporting and analytics, helping power our operations, insights and business decisions. many of these reports we set to run on a schedule, so that we can always go to a report and see data that's no more than fifteen minutes to an hour out of date.
+                                            How We Made It Easy for Anyone at Our Company to Trigger Alerts</a> </h4>
+                                            <p>Scale relies on Mode Analytics for internal SOL and Python based reporting and analytics, helping power our operations, insights and business decisions. many of these reports we set to run on a schedule, so that we can always go to a report and see data that's no more than fifteen minutes to an hour out of date.
+                                                <br>
+                                                How We Made It Easy for Anyone at Our Company to Trigger Alerts</a> </h4>
+                                                <p>Scale relies on Mode Analytics for internal SOL and Python based reporting and analytics, helping power our operations, insights and business decisions. many of these reports we set to run on a schedule, so that we can always go to a report and see data that's no more than fifteen minutes to an hour out of date.How We Made It Easy for Anyone at Our Company to Trigger Alerts</a> </h4>
+                                                    <p>Scale relies on Mode Analytics for internal SOL and Python based reporting and analytics, helping power our operations, insights and business decisions. many of these reports we set to run on a schedule, so that we can always go to a report and see data that's no more than fifteen minutes to an hour out of date.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-row row">
+                    <div class="col-sm-4">
+                        <div class="footer-list-div">
+                            <h5>Platform</h5>
+                            <ul class="footer-list">
+                                <li><a href="#">How IDLinks Works</a></li>
+                                <li><a href="#">Who We Are</a></li>
+                                <li><a href="#">Use Cases</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-list-div">
+                            <h5>Company</h5>
+                            <ul class="footer-list">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-list-div">
+                            <h5>Social</h5>
+                            <ul class="footer-list">
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+        jQuery(window).scroll(function() {
+            var wScroll = jQuery(this).scrollTop(); /*scroll desitnation*/
+            jQuery('#header').addClass('headerfixed');
+            if (wScroll < 150) {
+                jQuery('#header').removeClass('headerfixed');
+            }
+            if (wScroll < 550) {
+                jQuery('#header').removeClass('headeranimation');
+            } else {
+                jQuery('#header').addClass('headeranimation');
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
